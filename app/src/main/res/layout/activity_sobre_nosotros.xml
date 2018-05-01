@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.eniacs_team.rutamurcielago.SobreNosotros"
+        android:weightSum="1">
+
+
+
+        <TextView
+            android:id="@+id/info_general_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/info_aplicacion"
+            android:textAlignment="viewStart"/>
+
+        <TextView
+            android:id="@+id/creditos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/creditos"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cicg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/CICG"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/integrantesCICG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/integrantesCICG"/>
+
+        <TextView
+            android:id="@+id/museo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/museo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/integrantesMuseo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/integrantesMuseo"/>
+
+        <TextView
+            android:id="@+id/acg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/ACG"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/integrantesACG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/integrantesACG"/>
+
+        <TextView
+            android:id="@+id/ecci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/ECCI"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/profesor"/>
+
+        <TextView
+            android:id="@+id/equipo_eniacs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/Eniacs"/>
+
+        <TextView
+            android:id="@+id/integrantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/integrantes"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/integrante1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:paddingRight="10dp"
+            android:text="@string/integrantesECCI"/>
+
+<!--
+        <ImageView
+            android:id="@+id/credito1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/creditos1" />
+
+        <ImageView
+            android:id="@+id/credito2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/creditos2" />
+
+        <ImageView
+            android:id="@+id/credito3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/creditos3" />
+            -->
+
+        <TextView
+            android:id="@+id/anno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/anno"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

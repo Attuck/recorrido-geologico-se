@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#248CCD</color>
+    <color name="colorPrimaryDark">#0C6CAE</color>
+    <color name="colorAccent">#6dc067</color>
+    <color name="colorPrimaryLigth">#46B8FF</color>
+
+
+    <color name="naranja_light">#92CAD9</color>
+    <color name="naranja_morelight">#bad2cd</color>
+
+    <color name="naranja_3">#f37021</color>
+
+    <color name="naranja_moredark">#0B5380</color>
+    <color name="rojo">#EF5350</color>
+    <color name="verde">#b9d989</color>
+    <color name="celeste">#bad2cd</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+
+
+    <color name="amarillo_ligth">#ffe06a</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="gris">#808080</color>
+    <color name="celeste4">#bad2cd</color>
+    <color name="celeste4_dark">#80a9ba</color>
+    <color name="verde_dark">#8dc63f</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="negro">#000000</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- Colores de los slides -->
+    <color name="amarillo">#6DAADA</color>
+    <color name="amarillo_dark">#3BA2DA</color>
+    <color name="naranja_medium">#3899CD</color>
+    <color name="naranja_dark">#26698D</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#7dc1f5</color>
+    <color name="dot_dark_screen2">#42ade9</color>
+    <color name="dot_dark_screen3">#44b4f1</color>
+    <color name="dot_dark_screen4">#913792c2</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen0">#6299c4</color>
+    <color name="dot_light_screen1">#6299c4</color>
+    <color name="dot_light_screen2">#3287b6</color>
+    <color name="dot_light_screen3">#2f7ea9</color>
+    <color name="dot_light_screen4">#1e526e</color>
+
+</resources>

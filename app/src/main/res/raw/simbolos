@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>nadasimbolos3.kml</name>
+	<Schema name="schema0" id="schema0">
+		<SimpleField type="int" name="#Opacity"></SimpleField>
+		<SimpleField type="int" name="#ComponentCount"></SimpleField>
+		<SimpleField type="string" name="#LayerName"></SimpleField>
+		<SimpleField type="int" name="#Id"></SimpleField>
+		<SimpleField type="string" name="#Name"></SimpleField>
+		<SimpleField type="int" name="#AreaDirection"></SimpleField>
+		<SimpleField type="int" name="#VertexCount"></SimpleField>
+		<SimpleField type="string" name="#Style"></SimpleField>
+		<SimpleField type="double" name="#StrokeWeight"></SimpleField>
+		<SimpleField type="double" name="#Perimeter"></SimpleField>
+		<SimpleField type="boolean" name="#PathClosed"></SimpleField>
+		<SimpleField type="double" name="#ArtScale"></SimpleField>
+		<SimpleField type="double" name="#Area"></SimpleField>
+		<SimpleField type="string" name="KmlName"></SimpleField>
+		<SimpleField type="string" name="KmlId"></SimpleField>
+		<SimpleField type="string" name="KmlDescription"></SimpleField>
+		<SimpleField type="string" name="KmlStyleUrl"></SimpleField>
+	</Schema>
+	<Style id="style18">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style121</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style19">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="style16">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style114">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style116">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style118">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style119</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style116</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style1">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style114</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="style17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style122</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style11">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style14">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style119">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style112">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style115</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style115">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style117">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style113</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style121">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style120">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style110">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="style113">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style122">
+		<LineStyle>
+			<color>00000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="style15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style117</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>todos simbolos copy</name>
+		<Document>
+			<name>nadabuza.kmz</name>
+			<Schema name="schema0" id="schema00">
+				<SimpleField type="int" name="#Opacity"></SimpleField>
+				<SimpleField type="int" name="#ComponentCount"></SimpleField>
+				<SimpleField type="string" name="#LayerName"></SimpleField>
+				<SimpleField type="int" name="#Id"></SimpleField>
+				<SimpleField type="string" name="#Name"></SimpleField>
+				<SimpleField type="int" name="#AreaDirection"></SimpleField>
+				<SimpleField type="int" name="#VertexCount"></SimpleField>
+				<SimpleField type="string" name="#Style"></SimpleField>
+				<SimpleField type="double" name="#StrokeWeight"></SimpleField>
+				<SimpleField type="double" name="#Perimeter"></SimpleField>
+				<SimpleField type="boolean" name="#PathClosed"></SimpleField>
+				<SimpleField type="double" name="#ArtScale"></SimpleField>
+				<SimpleField type="double" name="#Area"></SimpleField>
+				<SimpleField type="string" name="KmlName"></SimpleField>
+				<SimpleField type="string" name="KmlId"></SimpleField>
+				<SimpleField type="string" name="KmlDescription"></SimpleField>
+				<SimpleField type="string" name="KmlStyleUrl"></SimpleField>
+			</Schema>
+			<Style id="style02">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="style05">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style014</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style08</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="style012">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Style id="style00">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Style id="style06">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Style id="style010">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Style id="style03">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="style01">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style03</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style02</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="style014">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="style013">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style012</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style015</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="style07">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="style011">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style00</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style07</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="style015">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Style id="style08">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="style04">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style017</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="style09">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Style id="style0">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="style016">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#style06</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#style010</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="style017">
+				<LineStyle>
+					<color>00000000</color>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff000000</color>
+				</PolyStyle>
+			</Style>
+			<Folder>
+				<name>simbolos</name>
+				<open>1</open>
+				<Placemark>
+					<name>Inclinación de capas</name>
+					<description>Rocas ígneas del Complejo de Nicoya inclinadas hacia el norte</description>
+					<styleUrl>#style011</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694944128</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259027</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.92228958448359,10.8553669187167,0 -85.9223023711198,10.8583168783828,0 -85.923274413464,10.8578355806323,0 -85.922133430605,10.8601522731296,0 -85.9210740199819,10.8578365419272,0 -85.9220560711027,10.8583326266556,0 -85.922043192578,10.8553679931051,0 -85.9179655986224,10.8553915731042,0 -85.9179646726692,10.8551707862785,0 -85.9263811207498,10.8551175475036,0 -85.9263820926472,10.8553403700127,0 -85.92228958448359,10.8553669187167,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Buzamiento</name>
+					<description>Inclinación de estratos de roca</description>
+					<styleUrl>#style01</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694944512</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259115</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.66302540615889,10.9183653675275,0 -85.66346395455859,10.9212825724827,0 -85.66435637553011,10.9206660007448,0 -85.6635617521806,10.9231231695314,0 -85.6621791556172,10.9209846134659,0 -85.6632224716186,10.9213337614375,0 -85.6627818027154,10.9184020098282,0 -85.6587503579846,10.9190139871418,0 -85.6587175043168,10.9187956601002,0 -85.66703816218541,10.9175279806905,0 -85.6670712703136,10.9177483010054,0 -85.66302540615889,10.9183653675275,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Buzamiento</name>
+					<description>Inclinación de estratos de roca hacia el Norte</description>
+					<styleUrl>#style05</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694944896</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259189</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.698525405746,10.9174295045074,0 -85.6989639541457,10.9203466529158,0 -85.69985637511719,10.9197300953146,0 -85.6990617517677,10.9221872641012,0 -85.69767912693089,10.9200487080357,0 -85.6987224712057,10.9203978418706,0 -85.6982818023025,10.917466104398,0 -85.6942503292983,10.9180781241217,0 -85.6942175039039,10.91785975467,0 -85.7025381617725,10.9165920752603,0 -85.7025712699007,10.9168124379853,0 -85.698525405746,10.9174295045074,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>buzamiento</name>
+					<description>Inclinación de estratos de roca hacia el Norte</description>
+					<styleUrl>#style013</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694945280</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259125</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.7483312691853,10.9151065353197,0 -85.7481426857396,10.9180504162091,0 -85.74914535875701,10.9176366211537,0 -85.74784886877291,10.9198700768198,0 -85.74695000147069,10.9174874083899,0 -85.7478958732674,10.9180493983674,0 -85.7480853897347,10.915090787047,0 -85.7440157193939,10.9148360156183,0 -85.7440298419473,10.9146156528933,0 -85.75243031556801,10.9151370140235,0 -85.75241609405781,10.9153593700218,0 -85.7483312691853,10.9151065353197,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Buzamiento</name>
+					<description>Inclinación de estratos de roca hacia el Norte</description>
+					<styleUrl>#style016</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694945664</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259178</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.8307365520039,10.9324562971436,0 -85.8301478295454,10.9353469109849,0 -85.8311976060142,10.9350738325425,0 -85.8296083593152,10.9371094169575,0 -85.8290431603091,10.9346263497547,0 -85.8299034768574,10.9353121630006,0 -85.83049511147399,10.9324071014622,0 -85.82649831577061,10.931599189624,0 -85.8265424081069,10.9313828134456,0 -85.8347930610862,10.9330460939906,0 -85.8347486011959,10.9332644068955,0 -85.8307365520039,10.9324562971436,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Buzamiento</name>
+					<description>Inclinación de estratos de roca hacia el Suroeste</description>
+					<styleUrl>#style04</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694946048</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259099</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.66265807840379,11.0893818464552,0 -85.6636162632576,11.0865918522727,0 -85.6625400087682,11.086726652681,0 -85.6643795031551,11.0849140745521,0 -85.66461830012391,11.0874494316044,0 -85.6638540423847,11.0866579554356,0 -85.6628910793297,11.0894618936957,0 -85.6667495192473,11.090780758526,0 -85.6666778179552,11.0909895821777,0 -85.6587121323746,11.0882715737883,0 -85.6587845405012,11.0880608045746,0 -85.66265807840379,11.0893818464552,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#style09</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694946432</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259142</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.73125074062391,11.0382922319567,0 -85.7295761648636,11.040720858766,0 -85.7306489417271,11.0408810910797,0 -85.7283890221773,11.0421308875765,0 -85.728842301008,11.0396249472091,0 -85.7293649627137,11.0405930984294,0 -85.73104787912121,11.03815238475,0 -85.7276875596154,11.0358425768208,0 -85.72781292378301,11.0356608001914,0 -85.73475152228239,11.0404247657922,0 -85.7346249989062,11.0406082034827,0 -85.73125074062391,11.0382922319567,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<styleUrl>#style09</styleUrl>
+					<ExtendedData>
+						<SchemaData schemaUrl="#schema00">
+							<SimpleData name="#Opacity">100</SimpleData>
+							<SimpleData name="#ComponentCount">1</SimpleData>
+							<SimpleData name="#LayerName">simbolos</SimpleData>
+							<SimpleData name="#Id">694946816</SimpleData>
+							<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+							<SimpleData name="#AreaDirection">1</SimpleData>
+							<SimpleData name="#VertexCount">11</SimpleData>
+							<SimpleData name="#Style"></SimpleData>
+							<SimpleData name="#StrokeWeight">1</SimpleData>
+							<SimpleData name="#Perimeter">0.030259136</SimpleData>
+							<SimpleData name="#PathClosed">true</SimpleData>
+							<SimpleData name="#ArtScale">1</SimpleData>
+							<SimpleData name="#Area">0.000004552</SimpleData>
+							<SimpleData name="KmlName"></SimpleData>
+							<SimpleData name="KmlId"></SimpleData>
+							<SimpleData name="KmlDescription"></SimpleData>
+							<SimpleData name="KmlStyleUrl"></SimpleData>
+						</SchemaData>
+					</ExtendedData>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-85.7494277815515,11.022958496437,0 -85.7477532057911,11.0253870808362,0 -85.7488259967914,11.0255473060816,0 -85.7465660772415,11.0267971096467,0 -85.7470193560723,11.0242912116894,0 -85.747542017778,11.0252593629097,0 -85.74922493418551,11.0228186492303,0 -85.7458646146796,11.0205088413011,0 -85.7459899647106,11.0203270222617,0 -85.75292856321001,11.0250910302725,0 -85.7528020539704,11.025274467963,0 -85.7494277815515,11.022958496437,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Placemark>
+			<name>Pliegue sinclinal Bahía Salinas</name>
+			<description>Deformación de las capas de roca en forma de cubeta cóncava hacia aarriba</description>
+			<styleUrl>#style15</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">723253120</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">9</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.012308159</SimpleData>
+					<SimpleData name="#PathClosed">false</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000002568</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.7265167872162,10.9902271958758,0 -85.7267743577095,10.9895063519118,0 -85.7267711062707,10.9895052068399,0 -85.72735673279411,10.9878660576249,0 -85.728111151397,10.9886669435282,0 -85.72790362478661,10.9861287997808,0 -85.72604187924961,10.9879185471552,0 -85.7271197453215,10.987797042304,0 -85.7262838711104,10.9901367634694,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue sinclinal Bahía Salinas</name>
+			<description>Deformación de las capas de roca en forma de cubeta cóncava hacia aarriba</description>
+			<styleUrl>#style13</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">723211264</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">9</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.011708057</SimpleData>
+					<SimpleData name="#PathClosed">false</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000002493</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.7292565343008,10.9820437911312,0 -85.72909995632151,10.9824820567971,0 -85.72910315121339,10.9824832160057,0 -85.72851752469011,10.9841224076308,0 -85.7277631060872,10.9833215217276,0 -85.72797063269761,10.985859665475,0 -85.7298323499612,10.9840698756905,0 -85.7287545121626,10.9841914370885,0 -85.7294894504066,10.9821342235377,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue sinclinal Bahía Salinas</name>
+			<description>Deformación de las capas de roca en forma de cubeta cóncava hacia aarriba</description>
+			<styleUrl>#style111</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">761351936</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">9</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.012308029</SimpleData>
+					<SimpleData name="#PathClosed">false</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000002568</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.692691928857,10.9776899309097,0 -85.69286976841831,10.9769454786733,0 -85.69286643215941,10.9769446446086,0 -85.69327088286261,10.9752516770144,0 -85.694107661822,10.975966018101,0 -85.69362613788439,10.9734653648557,0 -85.6919694874471,10.9754464664671,0 -85.6930278166134,10.97520872975,0 -85.6924505307372,10.9776253120993,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue sinclinal Bahía Salinas</name>
+			<description>Deformación de las capas de roca en forma de cubeta cóncava hacia aarriba</description>
+			<styleUrl>#style12</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">761352704</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">9</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.011707985</SimpleData>
+					<SimpleData name="#PathClosed">false</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000002493</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.6945281435318,10.9692577345564,0 -85.6944199695793,10.9697104055095,0 -85.6944233058381,10.9697111971641,0 -85.6940188551349,10.971404221305,0 -85.6931820761756,10.9706898660818,0 -85.6936636001131,10.9731905193271,0 -85.6953202505505,10.9712094318524,0 -85.6942619213842,10.9714471120228,0 -85.6947694851049,10.9693224099135,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Anticlinal Descartes</name>
+			<description>Deformación de las capas de roca formando una cubeta cóncava hacia abajo</description>
+			<styleUrl>#style118</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">761360000</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">14</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.02401593</SimpleData>
+					<SimpleData name="#PathClosed">true</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000005061</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.666538204004,11.0005536309483,0 -85.66550170188719,11.000233866087,0 -85.667522513461,10.998084749914,0 -85.6675200254036,10.9980823890868,0 -85.6687123703918,10.9968143421231,0 -85.66908345850651,10.9978500737903,0 -85.6699084757397,10.9954408637248,0 -85.667486295261,10.9963365078616,0 -85.6685227691045,10.9966562797913,0 -85.6665020140774,10.9988053959643,0 -85.6665045021348,10.9988077143815,0 -85.66531210059981,11.0000758108236,0 -85.6649410124851,10.999040072088,0 -85.664115995252,11.0014493316319,0 -85.666538204004,11.0005536309483,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Anticlinal Descartes</name>
+			<description>Deformación de las capas de roca formando una cubeta cóncava hacia abajo</description>
+			<styleUrl>#style10</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">761350784</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">14</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.02401592</SimpleData>
+					<SimpleData name="#PathClosed">true</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000005061</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.69815796489741,11.0081396898535,0 -85.69707365249469,11.008168175284,0 -85.69830114129449,11.0054857454093,0 -85.6982980594961,11.0054843105353,0 -85.6990223104024,11.0039015384403,0 -85.6997051690801,11.0047642652943,0 -85.69971647843219,11.0022176960796,0 -85.6977078526852,11.0038408566981,0 -85.6987921650878,11.0038124136777,0 -85.6975647045614,11.0064948506207,0 -85.69756775808651,11.0064962360164,0 -85.69684350718021,11.0080790505214,0 -85.6961606485025,11.0072163307358,0 -85.69614939569711,11.0097628928821,0 -85.69815796489741,11.0081396898535,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue sinclinal Bahía Salinas</name>
+			<description>Deformación de las capas de roca en forma de cubeta cóncava hacia aarriba</description>
+			<styleUrl>#style112</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">761351552</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">9</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.012308134</SimpleData>
+					<SimpleData name="#PathClosed">false</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000002568</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.68961089380041,11.0529383942125,0 -85.6898963983933,11.0522281669028,0 -85.6898932035014,11.0522268733956,0 -85.69054236030991,11.0506118625789,0 -85.6912649713602,11.0514415519882,0 -85.6911566560407,11.0488972587806,0 -85.6892264606503,11.0506129723091,0 -85.6903082567222,11.0505336230677,0 -85.6893816249607,11.0528389355294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue sinclinal Bahía Salinas</name>
+			<description>Deformación de la roca en forma de cubeta</description>
+			<styleUrl>#style17</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#schema0">
+					<SimpleData name="#Opacity">100</SimpleData>
+					<SimpleData name="#ComponentCount">1</SimpleData>
+					<SimpleData name="#LayerName">todos simbolos copy</SimpleData>
+					<SimpleData name="#Id">761351168</SimpleData>
+					<SimpleData name="#Name"><![CDATA[<Path>]]></SimpleData>
+					<SimpleData name="#AreaDirection">-1</SimpleData>
+					<SimpleData name="#VertexCount">9</SimpleData>
+					<SimpleData name="#Style"></SimpleData>
+					<SimpleData name="#StrokeWeight">1</SimpleData>
+					<SimpleData name="#Perimeter">0.011708038</SimpleData>
+					<SimpleData name="#PathClosed">false</SimpleData>
+					<SimpleData name="#ArtScale">1</SimpleData>
+					<SimpleData name="#Area">-0.000002493</SimpleData>
+					<SimpleData name="KmlName"></SimpleData>
+					<SimpleData name="KmlId"></SimpleData>
+					<SimpleData name="KmlDescription"></SimpleData>
+					<SimpleData name="KmlStyleUrl"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-85.69266803785079,11.0448682102188,0 -85.69249446757,11.0453000366224,0 -85.69249760591519,11.0453012877194,0 -85.6918484491066,11.0469163904246,0 -85.6911258946031,11.0460866515369,0 -85.6912341533758,11.0486309447445,0 -85.6931643487662,11.046915231216,0 -85.6920825526944,11.0469945804575,0 -85.69289727841721,11.0449676689019,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Ruta sin título</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue sinclinal</name>
+			<description>Pliegue sinclinal</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-85.70018540516215,11.05238920651544,0 -85.69657623218616,11.05075344254019,0 -85.69222645929862,11.04902639490022,0 -85.68935757159717,11.04748130241496,0 -85.68491570274361,11.04475473861559,0 -85.68028884226644,11.04239152838438,0 -85.67649474774315,11.04066448474113,0 -85.673070858293,11.03884666713912,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue anticlinal</name>
+			<description>Península de Descartes</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-85.73796220302741,11.01389707462323,0 -85.73336451559216,11.01240575752881,0 -85.72905326826788,11.01135340238627,0 -85.72406337444853,11.01053437673437,0 -85.71896727776323,11.0094399356648,0 -85.71367135361044,11.00902067350055,0 -85.71343271654165,11.00893014145195,0 -85.70662295723034,11.00782755018226,0 -85.7063257882495,11.00782893482848,0 -85.70148936619265,11.00727119414412,0 -85.70134069403184,11.00722170272566,0 -85.69669966682932,11.00588910276298,0 -85.69645793257108,11.00574129352593,0 -85.69167958776895,11.00321009241235,0 -85.68572034729135,10.99959301635895,0 -85.68115585082981,10.9959799236158,0 -85.68111062497133,10.99588354063916,0 -85.67754610340219,10.99199528609379,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue anticlinal</name>
+			<description>Península de Descartes</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-85.6786875820942,11.00851788285949,0 -85.67305365963968,11.00425566970955,0 -85.66666502192405,10.9986048249899,0 -85.66256396800382,10.99422795125343,0 -85.66256370762197,10.99401900123758,0 -85.65859332111735,10.98999527729885,0 -85.65848685973168,10.98988942764082,0 -85.65448694571047,10.9871435663807,0 -85.65273761009036,10.98533824324452,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue</name>
+			<description>Sinclinal Bahía Junquillal</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-85.7379864704935,10.98929942736089,0 -85.73038402691461,10.98684724588273,0 -85.72332665899702,10.98407584366681,0 -85.72115576420525,10.98322315935493,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Pliegue</name>
+			<description>Sinclinal Bahía Junquillal</description>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-85.70748236281564,10.9780001182705,0 -85.69869390159779,10.97501519979541,0 -85.69283439086436,10.97299029064452,0 -85.68204289669141,10.96920581204559,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

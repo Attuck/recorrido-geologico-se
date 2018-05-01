@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Península de Santa Elena</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre_punto">1. Nombre punto</string>
+    <string name="descripcion_punto"></string>
+    <string name="ver_mas"><u>Ver más</u></string>
+    <string name="aviso_ver_mas">¡Lo sentimos!</string>
+    <string name="aviso_texto">Necesitas estar cerca del punto de interés para poder acceder a más información</string>
+    <string name="aviso_texto_website">Necesitas estar cerca del punto de interés para poder acceder a más información, puede acceder a más contenido visitando nuestro sitio web.</string>
+    <string name="aviso_aceptar">Aceptar</string>
+    <string name="aviso_reintentar">Regresar</string>
+    <string name="aviso_visitar_website">Visitar sitio web</string>
+
+
+    <string name="No_multimedia">No existe datos multimedia para este sitio!</string>
+    <string name="error_audio">Ha ocurrido un error, inténtelo nuevamente!</string>
+    <string name="pagina_web">Ir a sitio web</string>
+    <string name="sobre_nosotros">Sobre nosotros</string>
+    <string name="ver_recomendaciones">Seguridad</string>
+    <string name="ver_columna">Ver Columna Estratigráfica</string>
+    <string name="info_aplicacion">Este  producto  ha  sido  desarrollado  por  medio  de  la  cooperación  del  Centro  de  Investigación  en Ciencias Geológicas, museo+UCR, Escuela de Ciencias de la Computación e Informática y el Área de Conservación Guanacaste, con el fin de educar sobre el conocimiento geológico del noroeste de Costa Rica, que constituye uno de los sitios más emblemáticos y enmarca la historia geológica de la parte Sur de América Central. Es así como la Universidad de Costa Rica y el Ministerio de Ambiente y Energía se unen para promover la cultura científica a través de paisajes geológicos de una belleza y geodiversidad magnificente.</string>
+    <string name="creditos">Créditos</string>
+
+
+    <string name="CICG">Centro de Investigación en Ciencias Geológicas(CICG)</string>
+    <string name="museo">museo+UCR</string>
+    <string name="ACG">Área de Conservación Guanacaste (ACG)</string>
+    <string name="ECCI">Escuela de Ciencias de la Computación e Informática (ECCI)</string>
+
+    <string name="integrantesCICG">Percy Denyer Chavarría\nJuan Pablo Solano Monge</string>
+    <string name="integrantesMuseo">Eugenia Zavaleta Ochoa\nMariano Chinchilla Chavarría\nMarco Díaz Segura</string>
+    <string name="integrantesACG">Alejandro Masís Cuevillas\nRóger Blanco Segura\nMaría Marta Chavarría Díaz\nFelipe Chavarría Díaz</string>
+    <string name="Eniacs">ENIACS UCR</string>
+    <string name="integrantes">Integrado por:</string>
+    <string name="integrantesECCI">Francisco Arroyo Solano\nKenneth Calvo Argüello\nDavid Chaves Campos\nJohan Durán Cerdas\nYohel Muñoz Rodríguez\nMarcelo Solórzano Astorga\nCésar Vargas Arce</string>
+    <string name="profesor">Alan Calderón Castro</string>
+    <string name="anno">© UCR 2017</string>
+    <string name="vocActivity">Glosario</string>
+    <string name="glosario">Glosario</string>
+    <string name="lista_vacia">No se encuentran audios.</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="home_button_text">Continuar al Mapa</string>
+    <string name="intro_text1">
+        <body style="text-align:justify;color:gray;background-color: transparent;">
+        \t\t\tCosta Rica está ubicada en el centro de interacción de 5 placas tectónicas.
+        Se encuentra sobre la placa Caribe y muy cerca del contacto donde la placa del Coco se hunde bajo la Caribe,
+        lo que tiene dos consecuencias directas, una sismicidad constante y una cordillera volcánica activa,
+        que se extiende a todo América Central.
+        </body>
+    </string>
+    <string name="intro_text2">
+        <body style="text-align:justify;color:gray;background-color: transparent;">
+        \t\t\tLa geología de esta región (Noroeste de Costa Rica) es sumamente interesante y fascinante
+        para los especialistas y amantes de la geología.
+        </body>
+    </string>
+    <string name="intro_text3">
+        <body style="text-align:justify;color:gray;background-color: transparent;">
+        \t\t\tSe pueden observar procesos que han actuado desde hace 150 millones de años hasta el día de hoy.\n
+        Existen varias unidades geológicas en los dos recorridos propuestos en esta aplicación:
+        </body>
+    </string>
+    <string name="intro_text4">
+        <body style="text-align:justify;color:gray;background-color: transparent;">
+        \t\t\tEl recorrido por la Península de Santa Elena nos transportará a fenómenos geológicos con edades que varían desde los 150 millones de años al presente.\n
+\t\t\tEn este recorrido se visitarán una serie de rocas ígneas y sedimentarias.\n
+\t\t\tLas rocas ígneas son aquellas formadas por el enfriamiento de roca fundida (magma), que puede ocurrir en la superficie de la Tierra (volcanes), así como en el interior del planeta. En el recorrido se verán los dos tipos.\\n
+\t\t\tLas rocas sedimentarias son rocas formadas por acumulación de granos de arcilla, barro, arena y bloques de roca, así como productos de reacciones químicas.\n\n
+\t\t\tEn este recorrido se apreciarán rocas sedimentarias de más de 70 millones de años de antigüedad.\n
+\t\t\tLos procesos que las formaron son los mismos que actúan el día de hoy. Estos procesos son continuos como la erosión, la acumulación (sedimentación), las reacciones químicas que endurecen o suavizan las rocas y las fuerzas que producen los terremotos que también causan que las rocas se quiebran y doblan formando fallas y plieques.
+    </body>
+    </string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_description_viewer">DescriptionViewer</string>
+</resources>

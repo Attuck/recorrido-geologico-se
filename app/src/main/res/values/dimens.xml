@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margen_multimedia">20dp</dimen>
+    <dimen name="margen_multimedia_icono">19dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="home_button_height">52dp</dimen>
+    <dimen name="home_button_width">174dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="parragraph_margin">4dp</dimen>
+    <dimen name="intro_text_size">20sp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+</resources>

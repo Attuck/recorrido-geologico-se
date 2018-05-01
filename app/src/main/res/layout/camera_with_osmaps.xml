@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/beyondarFragment"
+        android:name="com.beyondar.android.fragment.BeyondarFragmentSupport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/back2"
+        android:background="@null"
+        android:layout_gravity="top|start"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:src="@drawable/geo_izq"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/camera_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        fab:fab_addButtonColorNormal="@color/blanco"
+        fab:fab_addButtonColorPressed="@color/gris"
+        fab:fab_addButtonPlusIconColor="@color/negro"
+        app:fab_icon="@drawable/ic_view_headline_black_24dp"
+        fab:fab_labelsPosition="left"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_moreinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:fab_icon="@drawable/ic_view_headline_black_24dp"
+            fab:fab_title="Más Información"
+            app:fab_colorNormal="@color/blanco"
+            app:fab_colorPressed="@color/gris"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fab_size="mini"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_animacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:fab_icon="@mipmap/percy"
+            fab:fab_title="Ver Animación"
+            app:fab_colorNormal="@color/blanco"
+            app:fab_colorPressed="@color/gris"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fab_size="mini"
+            />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</FrameLayout>

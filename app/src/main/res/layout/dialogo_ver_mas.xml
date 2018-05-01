@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blanco"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/naranja_medium">
+
+        <TextView
+            android:id="@+id/aviso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="@string/aviso_ver_mas"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/gris"
+        android:id="@+id/texto_dialogo"
+        android:text="@string/aviso_texto"
+        android:textSize="18dp"/>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"/>
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/naranja_medium"
+        android:text="@string/aviso_aceptar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:typeface="sans"/>
+
+
+
+</LinearLayout>
