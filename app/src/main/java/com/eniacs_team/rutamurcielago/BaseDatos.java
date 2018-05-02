@@ -121,16 +121,16 @@ public class BaseDatos extends SQLiteOpenHelper {
 
     /**
      * Devuelve las imagenes ordenadas disponibles para un punto dado
-     * @param id El identificador del lugar de consulta
+     * @param idPunto El identificador del lugar de consulta
      * @return map de Drawable y String
      */
-    public Map selectImagen(int id) {
+    public Map selectImagenes(int idPunto) {
         SQLiteDatabase db = this.getReadableDatabase();
 
         String table = "Fotos";
         String[] columns = {"Descripcion", "Ruta"};
         String selection = "IDLugar =?";
-        String[] selectionArgs = {Integer.toString(id)};
+        String[] selectionArgs = {Integer.toString(idPunto)};
         String groupBy = null;
         String having = null;
         String orderBy = "IDFoto";
@@ -169,6 +169,66 @@ public class BaseDatos extends SQLiteOpenHelper {
         }
 
         return imagenes;
+    }
+
+    /**
+     * Devuelve una imagen dado su id
+     * @param idImagen El identificador de la imagen de consulta
+     * @return ImageObject
+     */
+    public ImageObject selectImagen(int idImagen) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        String table = "Fotos";
+        String[] columns = {"Descripcion", "Ruta"};
+        String selection = "IDFoto =?";
+        String[] selectionArgs = {Integer.toString(idImagen)};
+        String groupBy = null;
+        String having = null;
+        String orderBy = null;
+        String limit = null;
+
+        ImageObject imagen = new ImageObject();
+
+        try {
+            Cursor cursor = db.query(table, columns, selection, selectionArgs, groupBy, having, orderBy, limit);
+
+            if (cursor.moveToFirst()) {
+                do {
+                    String descripcion = cursor.getString(0);
+                    String ruta = cursor.getString(1);
+
+                    try
+                    {
+                        InputStream ims = context.getAssets().open(ruta);
+                        Drawable.createFromStream(ims, null);
+                        imagen.ruta = ruta;
+                        imagen.descripcion = descripcion;
+                        ims.close();
+                    }
+                    catch(IOException ex)
+                    {
+                        Log.i("Base de datos", "Archivo no encontrado.");
+                    }
+
+                } while (cursor.moveToNext());
+            }
+            cursor.close();
+            db.close();
+        }
+
+        catch(Exception e)
+        {
+            Log.i("Base de datos", "No hay datos en la base");
+        }
+
+        return imagen;
+    }
+
+    public class ImageObject{
+        String ruta;
+        String descripcion;
+        Drawable imagen;
     }
 
     /**

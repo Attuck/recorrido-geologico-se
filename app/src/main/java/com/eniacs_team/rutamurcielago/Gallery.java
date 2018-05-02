@@ -1,7 +1,5 @@
 package com.eniacs_team.rutamurcielago;
 
-import android.app.ActionBar;
-import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -77,7 +75,7 @@ public class Gallery extends AppCompatActivity {
      * Se encarga de conseguir de la base los datos que contiene el sitio geologico actual y preparar cada celda de la galeria.
      */
     private ArrayList<CreateList> prepareData(){
-        Map imagenes = baseDatos.selectImagen(idPunto);
+        Map imagenes = baseDatos.selectImagenes(idPunto);
 
 
         ArrayList<CreateList> theimage = new ArrayList<>();

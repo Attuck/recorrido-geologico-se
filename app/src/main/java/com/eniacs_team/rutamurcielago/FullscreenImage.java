@@ -2,15 +2,18 @@ package com.eniacs_team.rutamurcielago;
 
 import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.os.Handler;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Iterator;
 import java.util.Map;
 
@@ -138,10 +141,10 @@ public class FullscreenImage extends AppCompatActivity {
         Drawable img = null;
         if(imgId != -1){
             img = getResources().getDrawable(imgId);
-        } else {
+        } else if(extras.containsKey("idPunto")){
             int idPunto = extras.getInt("idPunto");
             int pos = extras.getInt("pos");
-            Map imagenes = baseDatos.selectImagen(idPunto);
+            Map imagenes = baseDatos.selectImagenes(idPunto);
 
             Iterator<Map.Entry<Drawable, String>> it = imagenes.entrySet().iterator();
 
@@ -158,6 +161,17 @@ public class FullscreenImage extends AppCompatActivity {
 
             String text = extras.getString("text");
             description.setText(text);
+        }else{
+            try{
+                String ruta = extras.getString("ruta");
+                InputStream ims = this.getAssets().open(ruta);
+                img = Drawable.createFromStream(ims, null);
+            }
+            catch(IOException ex)
+            {
+                Log.i("Base de datos", "Archivo no encontrado.");
+                onBackPressed();
+            }
         }
         //TODO add text
         image.setImageDrawable(img);
